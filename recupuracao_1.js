@@ -1,6 +1,6 @@
 // Faça um código que solicite o nome do usuário e, em seguida, exiba a mensagem: "Olá, [nome do usuário]!
 
-const input = require('prompt-sync')(); 
+
 
 // let user = input("qual o seu nome:  ");
 
@@ -20,6 +20,8 @@ const input = require('prompt-sync')();
 // console.log(`ola ,${pen} ! voce tem ${age} anos`)
 
 // Faça um código que solicite ao usuário o ano de nascimento e o ano atual. Calcule e exiba a idade do usuário
+
+const input = require('prompt-sync')(); 
 
 // let year = input("em que ano voce esta agora:  ")
 // let byear = input("qual e o seu ano de nascimento:  ")
