@@ -40,3 +40,17 @@
 //  para calcular o fatorial desse número (ex: 5! = 5 * 4 * 3 * 2 * 1) e exiba o resultado.
 
 const input = require("prompt-sync")();
+
+let n = parseInt(input("mande um numero: "))
+let resultado = 1
+
+if(n < 0){
+    console.log("Não existe fatorial de número negativo.")
+}
+if(n === 0 || n === 1){
+    console.log(" O fatorial de 0 é 1.")
+}
+for(let i = 1; i <= n; i++){
+     resultado *= i;
+}
+console.log(`O fatorial de ${n} é ${resultado}.`)
