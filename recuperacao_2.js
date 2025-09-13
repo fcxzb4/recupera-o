@@ -23,14 +23,15 @@
 
 // Faça um código que declare uma variável salario e uma variável aumento (em porcentagem). Calcule e exiba o novo salário após o aumento.
 
-// const input = require("prompt-sync")();
-// let wage = 1550.18;
-// let up =  30 ;
+const input = require("prompt-sync")();
+let wage = 1550.18;
+let up =  30 ;
 
-// let newwage = (up * wage) /100
-// let bank = newwage + wage;
 
-// console.log(`o seu salario novo é ${bank}`)
+let newwage = (up * wage) /100
+let bank = newwage + wage;
+
+console.log(`o seu salario novo é ${bank}`)
 
 // Faça um código que peça o nome do aluno e 3 notas, calcule a média e exiba uma mensagem: "A média final de [nome do aluno] é [média].".
 
