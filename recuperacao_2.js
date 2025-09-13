@@ -14,7 +14,7 @@
 
 // Faça um código que use prompt-sync para solicitar dois números ao usuário, armazene-os em variáveis e exiba a soma, subtração, multiplicação e divisão.
 
-const input = require("prompt-sync")();
+
 
 // let num1 = parseInt(input('mande um outro numero:'))
 // let num2 = parseInt(input('mande um numero: '))
@@ -23,13 +23,14 @@ const input = require("prompt-sync")();
 
 // Faça um código que declare uma variável salario e uma variável aumento (em porcentagem). Calcule e exiba o novo salário após o aumento.
 
-// let wage = 1550;
-// let up = 150 / 100 ;
+// const input = require("prompt-sync")();
+// let wage = 1550.18;
+// let up =  30 ;
 
-// let newwage = (wage * up )
-// let bank = newwage;
+// let newwage = (up * wage) /100
+// let bank = newwage + wage;
 
-// console.log(`o seu salario nove é ${bank}`)
+// console.log(`o seu salario novo é ${bank}`)
 
 // Faça um código que peça o nome do aluno e 3 notas, calcule a média e exiba uma mensagem: "A média final de [nome do aluno] é [média].".
 
