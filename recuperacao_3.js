@@ -32,31 +32,33 @@
 // Faça um código que solicite três notas de um aluno. Calcule a média. Se a média for maior ou igual a 7, exiba "Aprovado.". 
 // Caso contrário, exiba "Reprovado.".
 
-const input = require("prompt-sync")();
 
-let grade1 =  input(" mande a nota de portuges: ");
-let grade2 = input("mande a nota de matematica; ");
-let grade3 =  input("mande a nota e sociologia:");
+// let grade1 =  input(" mande a nota de portuges: ");
+// let grade2 = input("mande a nota de matematica; ");
+// let grade3 =  input("mande a nota e sociologia:");
   
-let media = grade1 + grade2 + grade3/ 3
+// let media = grade1 + grade2 + grade3/ 3
 
-if(media >= 6 ){
-    console.log("aprovado ze")
-}else{
- console.log("animal reprovado")
-}
+// if(media >= 6 ){
+//     console.log("aprovado ze")
+// }else{
+//  console.log("animal reprovado")
+// }
 
 // Faça um código que solicite o ano de nascimento do usuário. Calcule a idade. Se a idade for entre 16 e 17 ou maior que 65, exiba "Voto opcional.".
 //  Se a idade for maior ou igual a 18 e menor ou igual a 65, exiba "Voto obrigatório.". Caso contrário, exiba "Não pode votar.".
 
+const input = require("prompt-sync")();
 
-// let bday = input("qual a sua data de nascimento:  ")
-// let now = 2025 - bday 
 
-// if(now === 16 && 17 && 65){
-//   console.log("Voto opcional")
-// }else if(now <= 18 || now <= 65){
-//     console.log("Voto obrigatório.")
-// }else{
-//     console.log("nao estas liberado a democracia agora chore")
-// }
+
+let bday = input("qual a sua data de nascimento:  ")
+let now = 2025 - bday 
+
+if(now === 16 && 17 && 65){
+  console.log("Voto opcional")
+}else if(now <= 18 || now <= 65){
+    console.log("Voto obrigatório.")
+}else{
+    console.log("nao estas liberado a democracia agora chore")
+}

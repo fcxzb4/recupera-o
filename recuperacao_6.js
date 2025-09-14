@@ -42,8 +42,6 @@
 // Faça uma função que receba um número como parâmetro e retorne "Positivo" se o número for maior que zero, "Negativo" se for menor que zero e "Zero" se for igual a zero.
 
 // function analise(n) {
-    
-
 //   if (n > 0) {
 //     console.log(`analise analitica indentificou que seu numero é: positivo`);
 //   } else if (n < 0) {
@@ -58,7 +56,21 @@
 // analise(n)
 
 // Faça uma função que receba a idade do usuário como parâmetro.
-//  Dentro da função, use condicionais (if/else) para retornar uma mensagem: "Voto obrigatório" (18-65), "Voto opcional" (16-17 ou >65) ou "Não pode votar" (<16). 
+// Dentro da função, use condicionais (if/else) para retornar uma mensagem: "Voto obrigatório" (18-65), "Voto opcional" (16-17 ou >65) ou "Não pode votar" (<16). 
 // Chame a função e exiba o resultado.
 
 const input = require("prompt-sync")();
+
+// function verificar (bday){
+//   if( bday == 16 || bday == 17 || bday > 65){
+//     console.log("Voto opcional")
+//   }else if(bday >= 18 && bday <= 65){
+//     console.log("Voto obrigatório")
+//   }else{
+//      console.log("nao estas liberado a democracia agora chore")
+//   }
+// }
+
+// let bday = input("mande a sua idade: ")
+
+// verificar(bday)
